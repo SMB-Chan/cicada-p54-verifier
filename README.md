@@ -146,7 +146,7 @@ The `ci/` directory contains the audit harness and its frozen outputs. The CI ru
 
 CI result: **18/18 checks pass, 6/6 machine-readable outputs byte-identical**.
 
-SHA-256 of the verifier script: `0f0b59ea70af0107dde2a7a9905d8466c721b37b9256c86304f5e109565f545d`
+SHA-256 of the verifier script: `b7100a76b58ed859453d8aaae2aa884cabbd880fe30b1952e4d40c6a9c94320a`
 
 ---
 
