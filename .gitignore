@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+out/
+cicada_p54_cleanroom_ci_workspace/
+*.zip

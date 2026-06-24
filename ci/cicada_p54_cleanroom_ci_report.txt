@@ -1,0 +1,22 @@
+Cicada p54 clean-room CI audit
+================================
+
+Verdict: PASS
+
+Scope:
+- Copy only the raw Liber Primus transcription and the minimal public verifier into an isolated workspace.
+- Run the verifier with no derived input files.
+- Confirm fact rows, deterministic outputs, and byte-level agreement with the frozen reference outputs.
+
+Clean-room workspace:
+- /mnt/data/cicada_p54_cleanroom_ci_workspace
+
+Core results:
+- verifier exit code: 0
+- fact checks: 7/7
+- all machine-readable deterministic outputs byte-identical: 6/6
+- clean-room input files before run: 2
+
+Boundary statement:
+This CI audit strengthens reproducibility of the p54 control-layer and payload-quarantine claims only.
+It does not decode the A-family or B-family second-layer payloads.

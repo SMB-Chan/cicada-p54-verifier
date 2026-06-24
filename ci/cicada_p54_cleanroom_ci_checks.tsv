@@ -1,0 +1,19 @@
+check	observed	expected	pass	detail
+raw_transcription_exists	True	True	True	
+minimal_verifier_exists	True	True	True	
+cleanroom_input_file_count_before_run	2	2	True	
+cleanroom_contains_only_script_and_raw_before_run	input/cicada_p54_minimal_public_verifier.py,input/liber-primus__transcription--master.txt	input/cicada_p54_minimal_public_verifier.py,input/liber-primus__transcription--master.txt	True	
+verifier_exit_code	0	0	True	
+stdout_contains_pass	True	True	True	
+stderr_empty			True	
+produced_output_count	9	9	True	
+produced_expected_outputs	cicada_p54_minimal_public_verifier_claim_card.md,cicada_p54_minimal_public_verifier_events.tsv,cicada_p54_minimal_public_verifier_facts.tsv,cicada_p54_minimal_public_verifier_manifest.json,cicada_p54_minimal_public_verifier_report.txt,cicada_p54_minimal_public_verifier_shuffle.tsv,cicada_p54_minimal_public_verifier_streams.tsv,cicada_p54_minimal_public_verifier_summary.tsv,cicada_p54_minimal_public_verifier_trace.tsv	cicada_p54_minimal_public_verifier_claim_card.md,cicada_p54_minimal_public_verifier_events.tsv,cicada_p54_minimal_public_verifier_facts.tsv,cicada_p54_minimal_public_verifier_manifest.json,cicada_p54_minimal_public_verifier_report.txt,cicada_p54_minimal_public_verifier_shuffle.tsv,cicada_p54_minimal_public_verifier_streams.tsv,cicada_p54_minimal_public_verifier_summary.tsv,cicada_p54_minimal_public_verifier_trace.tsv	True	
+fact_p54_token_length	232	232	True	
+fact_p55_token_length	76	76	True	
+fact_EA_positions	48,52,54,73,135,151,211,228	48,52,54,73,135,151,211,228	True	
+fact_A_payload_length	91	91	True	
+fact_B_payload_length	57	57	True	
+fact_terminal_pidx_source219	320	320	True	
+fact_compact_score	100	100	True	
+all_fact_rows_pass	0	0	True	
+machine_readable_outputs_byte_identical	6	6	True	
